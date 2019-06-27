@@ -77,4 +77,4 @@ bot.on('guildMemberRemove', member => {
     channel.send(`${member} Has left server :(`)
 });
 
-bot.login(token); ``
+bot.login(process.env.BOT_TOKEN); ``
